@@ -10,5 +10,10 @@ namespace Calculadora
         {
             return (num1 + num2);
         }
+
+        public static int Restar(int num1, int num2)
+        {
+            return (num1 - num2);
+        }
     }
 }
