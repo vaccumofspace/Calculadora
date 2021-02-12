@@ -30,6 +30,10 @@ namespace Calculadora
                         break;
                     case "4":
                         nums = Input();
+                        if(nums[1]==0){
+                            Console.WriteLine("El resultado es indefinido");
+                            break;
+                        }
                         Console.WriteLine($"\nEl resultado de la division es {Calculadora.Dividir(nums[0], nums[1])}\n");
                         break;
                     case "5":
