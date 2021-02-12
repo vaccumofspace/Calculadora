@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Calculadora
 {
-    public static class Funciones
+    public static class Calculadora
     {
         public static int Sumar(int num1, int num2)
         {
@@ -19,6 +19,10 @@ namespace Calculadora
         public static int Multiplicar(int num1, int num2)
         {
             return (num1 * num2);
+        }
+        public static int Dividir(int num1, int num2)
+        {
+            return (num1 / num2);
         }
     }
 }
